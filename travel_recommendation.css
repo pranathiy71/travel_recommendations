@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("bg.jpeg");
+}
+
+nav{
+    background-color: #21A8DF;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: oblique;
+    font-size: larger;
+    .searchbar{
+        background-color: #397ED9;
+        width: 40%;
+        border-radius: 45%;
+        button{
+            background-color: #21A8DF;
+            color: black;
+            border-radius: 5%;
+        }
+        #search{
+            width: 70%;
+            
+        }
+    }
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.homesection{
+    margin: 5%;
+    p{
+        width: 50%;
+    }
+}
+
+.aboutussection{
+    margin-left: 15%;
+    p{
+        width: 50%;
+    }
+}
+
+.team{
+    margin-left: 5%;
+    margin-top: 20%;
+    display: flex;
+    gap: 2%;
+    text-align: center;
+    div{
+        background-color: lrgba(0,0,255,0.1);
+        border-radius: 10%;
+        padding: 5px;
+
+        div{
+            background-color: #2966B6;
+            align-items: center;
+        }
+    }
+}
+
+.contactus{
+    margin-left: 15%;
+}
+
+#formscontact{
+    margin-left: 5%;
+    margin-top: 20%;
+    background-color: rgba(0,0,255,0.1);
+    width: 50%;
+    input, textarea{
+        margin-bottom: 1%;
+        margin-left: 1%;
+        width: 95%;
+        background-color: rgba(0,0,255,0.1);
+        color: white;
+    }
+    label{
+        font-size:larger;
+        margin-left: 1%;
+        color: white;
+    }
+    button{
+        margin-left: 1%;
+        background-color: rgba(0,0,255,0.1);
+        color: white;
+    }
+}
+#display{
+    display: flex;
+    float: left;
+    margin-left: 5%;
+
+}
+.pic{
+    background-color: rgba(0,0,255,0.1);
+    color: white;
+    width: 30%;
+}
